@@ -10,7 +10,7 @@
 
 git을 활용하기 위해서 GUI 툴인 `source tree`, `github desktop` 등을 활용할 수도 있다.
 
-초기 설치를 완료한 이후에 컴퓨터에 `author` 정보를 입력한다. 이메일 저보를 github에 가입된 이메일로 일치시켜야 커밋 이력들이 관리된다.
+초기 설치를 완료한 이후에 컴퓨터에 `author` 정보를 입력한다. 이메일 정보를 github에 가입된 이메일로 일치시켜야 커밋 이력들이 관리된다.
 
 ```bash
 $ git config --global user.name jjjjjnh
@@ -177,6 +177,6 @@ $ git clone 깃허브url
 
 원격 저장소를 복제한다.
 
-**주의! 'init'명령어와 같이 기억하자! ** 
+**주의! 'init'명령어와 같이 기억하자! **
 
-zzm
+다시 말해서, 맨 처음에 github에서 자료를 받아올 땐  `clone`으로 받아오고, 이후 `./git` 폴더가 생성되면 `pull` 로 받아온다.

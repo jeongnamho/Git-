@@ -13,7 +13,7 @@ git을 활용하기 위해서 GUI 툴인 `source tree`, `github desktop` 등을 
 초기 설치를 완료한 이후에 컴퓨터에 `author` 정보를 입력한다. 이메일 정보를 github에 가입된 이메일로 일치시켜야 커밋 이력들이 관리된다.
 
 ```bash
-$ git config --global user.name jjjjjnh
+$ git config --global user.name jeongnamho
 $ git config --global user.email jnh7807@gmail.com
 ```
 
@@ -110,7 +110,7 @@ $ git commit -m '마크다운 및 git 정리'
 ```bash
 $ git log
 commit 78fa4e6ea9cda9badb36c258dd5c05a7fa1b4bf5 (HEAD -> master)
-Author: jjjjjnh <jnh7807@gmail.com>
+Author: jeongnamho <jnh7807@gmail.com>
 Date:   Thu Dec 26 14:35:55 2019 +0900
 
     마크다운 및 git 정리
@@ -143,8 +143,8 @@ $ git push -u origin master
 
 ``` bash
 $ git remote -v
-origin  https://github.com/jjjjjnh/TIL.git (fetch)
-origin  https://github.com/jjjjjnh/TIL.git (push)
+origin  https://github.com/jeongnamho/TIL.git (fetch)
+origin  https://github.com/jeongnamho/TIL.git (push)
 ```
 
 ### 2. `push` - 원격저장소 업로드
